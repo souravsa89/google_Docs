@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  height: 100vh;
+  width: 98.9vw;
+}
+
+.top_bar {
+  height: 2.5rem;
+  width: 100%;
+  box-shadow: 0.15px 0.15px;
+
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 0.75rem;
+}
+
+.main_nav {
+  height: 2rem;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.icon {
+  margin-right: 1.5%;
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+/* .button{
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+} */
+
+.bottom_section {
+  height: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 11px;
+  width: 100%;
+  /* border: 1px solid; */
+  background-color: rgba(219, 210, 210, 0.2);
+}
+
+.page {
+  /* border: 1px solid; */
+  height: 1010px;
+  width: 850px;
+  padding: 2rem;
+  margin-bottom: 1%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.page:focus {
+  outline: none;
+}
